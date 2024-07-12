@@ -25,9 +25,7 @@ body {
   height: 100%;
   background: rgb(255, 255, 255);
   position: relative;
-  background-image: url(../images/Decore.png);
-  background-repeat: no-repeat;
-  background-position: right;
+  background: url(../images/Decore.png) 20px/-149px no-repeat;
 }
 .wrapper {
   min-height: 100%;
@@ -77,6 +75,7 @@ body {
 
 .header__languages {
   border: 0;
+  background: transparent;
   cursor: pointer;
   width: 50px;
 }
